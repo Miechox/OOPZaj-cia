@@ -19,7 +19,7 @@ namespace LAB2Dom
         public override void Print(string prefix)
         {
             string[] temp = { "fruit", "fruits" };
-            Console.WriteLine(prefix + $"{this.Name} ({this._count} {(this._count>1?temp[1]:temp[2])})");
+            Console.WriteLine(prefix + $"{this.Name} ({this._count} {(this._count>1?temp[0]:temp[1])})");
         }
     }
 }
